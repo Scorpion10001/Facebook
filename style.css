@@ -1,0 +1,83 @@
+body{
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+}
+
+.face{
+    width: 400px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+}
+.face-container{
+    display: block;
+}
+.face-container a{
+    text-decoration: none;
+}
+.face-container a:hover{
+    text-decoration: underline;
+}
+.face .face-container p{
+    margin-top: 5%;
+}
+.face-container input{
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: larger;
+    border-radius: 5px;
+}
+.face-container button{
+    width: 350px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    text-decoration: double;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+}
+.face-container p{
+    text-align: center;
+    margin: 25px;
+    font-size: large;
+}
+.line{
+    color: #96999e;
+
+}
+.create button{
+    background-color: rgb(3, 211, 3);
+    width: 70%;
+    border-radius: 7px;
+}
+.create button:hover{
+    background-color: rgb(2, 184, 2);
+}
+
+#first{
+    width: 45%;
+    float: left;
+}
+#second {
+    float: right;
+    width: 45%;
+}
+
+span{
+    margin-top: -25px;
+}
